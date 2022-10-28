@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Slabo+27px&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.img{
+  height: 24vh;
+  width: 100%;
+}
+
+.logo{
+  height: 20vh;
+  width: 30vw;
+  background-color: gold;
+}
+
+.App{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7vh;
+  gap: 3vh;
+}
+
+.con{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vh;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.card{
+  border: 1px solid slateblue;
+  width: 20vw;
+  height: 32vh;
+}
+
+
+.heho{
+  height: 8vh;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80%;
+margin: auto;
+color: rgb(165, 65, 65);
+}
+
+.inp{
+  height: 3vh;
+  width: 10vw;
+  box-shadow: rgb(82, 84, 236) ;
+  text-align: center;
+}
+
+.btn{
+  height: 3vh;
+  width: 4vw;
+  background-color: rgb(215, 150, 218);
+  color: black;
+  font-size: 1rem;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.head{
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3vh;
+}
